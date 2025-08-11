@@ -4,7 +4,7 @@ import config
 
 def say_hello(name):
     now = datetime.datetime.now() # เพิ่มบรรทัดนี้
-    print(f"Goodbye, {name} from {config.APP_NAME}!")
+    print(f"Hi, {name} from {config.APP_NAME}!")#เเก้ไขตรงนี้
     print(f"Today is {now.strftime('%Y-%m-%d')}.") # เพิ่มบรรทัดนี้
 def greet_user():
     name = input("Please enter your name: ")
@@ -12,3 +12,4 @@ def greet_user():
 
 if __name__ == "__main__":
     greet_user()
+
